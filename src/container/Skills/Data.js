@@ -11,7 +11,7 @@ const Data =[
     {
         id: 2,
         name: "HTML",
-        description:"Beautiful UI/UX designs with HTML & CSS",
+        description:"Beautiful UI/UX design with HTML & CSS",
         Img: (images.html),
     },
     {

@@ -56,7 +56,7 @@ const Work = () => {
       </div>
       <motion.div
       animate={animateCard}
-      transition={{duration:0.5, delayChildren: 0.5}}
+      transition={{duration:0.5, delayChildren: 0.4}}
       className='app__work-potfolio'
       >
         {filterWork.map((work,index)=>(
@@ -68,13 +68,13 @@ const Work = () => {
               
               <motion.div
               whileHover={{opacity:[0,1]}}
-              transition={{duration:0.25, ease: 'easeInOut', staggerChildren: 0.5}}
+              transition={{duration:0.1, ease: 'easeInOut', staggerChildren: 0.5}}
               className='app__work-hover app__flex'>
                 <a href={work.projectLink} target="_blank" rel='noreferrer'>
                   <motion.div
                     whileInView={{scale:[0,1]}}    
                     whileHover={{scale:[0,0.9]}}
-                    transition={{duration:0.25}}
+                    transition={{duration:0.2}}
                     className='app__flex'>
 
                       <AiFillEye/>
@@ -85,7 +85,7 @@ const Work = () => {
                   <motion.div
                     whileInView={{scale:[0,1]}}    
                     whileHover={{scale:[0,0.9]}}
-                    transition={{duration:0.25}}
+                    transition={{duration:0.1}}
                     className='app__flex'>
 
                       <AiFillGithub/>

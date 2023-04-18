@@ -23,6 +23,10 @@ const abouts = [
 },
 ]
 
+const handleSubmit = ()=>{
+  console.log('RESUME')
+}
+
 
 const About = () => {
 
@@ -46,6 +50,13 @@ const About = () => {
             <p className='p-text'  style={{marginTop:10}}>{about.description}</p>
           </motion.div>
         ))}
+      </div>
+
+      <div className='app__about_resume'>
+        <button  type='button' className='p-text' onClick={handleSubmit}>
+          View my Resume
+        </button>
+        
       </div>
 
       <div className='app__profile-about'> 

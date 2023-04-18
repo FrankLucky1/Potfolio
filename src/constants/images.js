@@ -39,9 +39,17 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-import bisola from '../assets/bisola.png'
+import bisola from '../assets/bisola.png';
+import HTMLProject from '../assets/HTMLProject.png';
+import HTMLProject2 from '../assets/HTMLProject2.png';
+import MusicApp from '../assets/MusicApp.png';
+import YoutubeApp from '../assets/YoutubeApp.png';
 
 const Images = {
+  HTMLProject,
+  HTMLProject2,
+  MusicApp,
+  YoutubeApp,
   email,
   me,
   mobile,
